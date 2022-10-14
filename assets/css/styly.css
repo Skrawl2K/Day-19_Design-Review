@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    margin: 0 0.5rem;
+}
+
+/* ============= GENERELL ======== */
+
+/* Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff
+Fonts: Graphik, TiemposHeadline, Theinhardt  */
+
+
+.color1 {
+    background-color: #e6e6e6;
+}
+
+@font-face {
+    font-family: GraphikMedium;
+    src: url("../fonts/Graphik-Medium.ttf");
+}
+
+@font-face {
+    font-family: GraphikRegular;
+    src: url("../fonts/Graphik-Regular.woff");
+}
+
+@font-face {
+    font-family: TiemposHeadline;
+    src: url("../fonts/TiemposHeadline-Semibold.woff");
+}
+
+@font-face {
+    font-family: Theinhardt;
+    src: url("../fonts/Theinhardt-Lt.woff");
+}
+
+.graphikM {
+    font-family: GraphikMedium;
+}
+
+.graphikR {
+    font-family: GraphikRegular;
+}
+
+.thiemposHeadline {
+    font-family: TiemposHeadline;
+}
+
+.theinhardt {
+    font-family: Theinhardt;
+}
+
+
+/* ============= HEADER ============= */
+
+.navbarG {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.nav1a {
+    padding: 1rem 1rem;
+
+}
+
+.nav2 {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 1px;
+    padding: 2px 15px;
+}
+
+header div h2 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+header article h1 {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+header article img {
+    width: 100%;
+}
+
+/* ================= MAIN =========== */
+
+main div .textR {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.textR span {
+    font-size: 2rem;
+    color: #000000;
+}
+
+.mobileAlign {
+    margin: 2rem 0;
+}
+
+main section div img {
+    width: 55%;
+}
+
+.align {
+    display: flex;
+}
+
+.alignCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.alignR {
+    justify-content: flex-start;
+}
+
+.columnC {
+    flex-direction: column;
+    text-align: center;
+}
+
+.sectionHeadline1 {
+    font-family: thiemposHeadline;
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.subTextHeadline {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.subText {
+    margin-left: -0.2rem;
+}
+
+.mT {
+    margin-top: 3.5rem;
+}
+
+.-mT {
+    margin-top: -6rem;
+}
+
+.backgroundNum {
+    font-size: 11rem;
+    color: rgba(177, 177, 177, 0.755);
+    text-align: center;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: column;
+}
+
+.greyText {
+    color: grey;
+}
+
+section div img {
+    align-self: center;
+}
+
+/* 
+/* ================== FOOTER ========= */
+
+footer {
+    border-top: #686868 solid 1px;
+    margin-top: 2.5rem;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+footer div {
+    display: flex;
+}
+
+footer div p {
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+}
+
+footer div img {
+    width: 10%;
+}
+
+
+
+/* =============================================*/
+
+
+
+/* !================== DESKTOP ==========================! */
+
+@media only screen and (min-width: 1200px) {
+    /* ============= HEADER ============= */
+
+    .navbarG {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav1 {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin-bottom: 1rem;
+    }
+
+    .nav1a {
+        padding: 1rem 1rem;
+    }
+
+    .nav2 {
+        text-decoration: none;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 1px;
+        padding: 2px 15px;
+    }
+
+    header div h2 {
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+
+    header article h1 {
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    header article img {
+        width: 100%;
+    }
+
+    /* ================= MAIN =========== */
+
+    .textG {
+        display: flex;
+    }
+
+
+    .textL {
+        justify-content: flex-start;
+    }
+
+    .textR {
+        justify-content: flex-end;
+    }
+}
