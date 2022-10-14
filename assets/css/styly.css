@@ -215,57 +215,205 @@ footer div img {
 @media only screen and (min-width: 1200px) {
     /* ============= HEADER ============= */
 
-    .navbarG {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+/* ============= HEADER ============= */
 
-    .nav1 {
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-        margin-bottom: 1rem;
-    }
+.navbarG {
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+}
 
-    .nav1a {
-        padding: 1rem 1rem;
-    }
-
-    .nav2 {
-        text-decoration: none;
-        color: #000000;
-        border: 1px solid #000000;
-        border-radius: 1px;
-        padding: 2px 15px;
-    }
-
-    header div h2 {
-        margin-bottom: 1rem;
-        font-size: 1.3rem;
-    }
-
-    header article h1 {
-        text-align: center;
-        margin: 2rem 0;
-    }
-
-    header article img {
-        width: 100%;
-    }
-
-    /* ================= MAIN =========== */
-
-    .textG {
-        display: flex;
-    }
+.navHeadline{
+    margin-right: 23rem;
+    font-size: 2rem;
+}
 
 
-    .textL {
-        justify-content: flex-start;
-    }
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-bottom: 1rem;
+    
+}
 
-    .textR {
-        justify-content: flex-end;
-    }
+.nav1a {
+    padding: 1rem 1rem;
+    font-family: GraphikRegular;
+}
+
+.fs{
+    font-size: 1.2rem;
+    font-family: GraphikRegular;
+}
+
+.nav2 {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000000;
+    border: 1.5px solid #000000;
+    border-radius: 1px;
+    padding: 3px 30px;
+}
+
+header div h2 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+header article h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin: 3rem 0;
+}
+
+header article img {
+    width: 100%;
+}
+
+/* ================= MAIN =========== */
+
+.textG {
+    display: flex;
+    margin: 10rem 5rem;
+}
+
+
+.textL {
+    justify-content: flex-start;
+    width: 50%;
+}
+.textL p{
+    font-size: 2rem;
+    width:110%;
+}
+
+.textR {
+    justify-content: flex-end;
+    margin-left: 10rem;
+    font-size: 2rem;
+}
+
+
+main div .textR {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.textR span {
+    font-size: 5rem;
+    color: #000000;
+}
+
+.mobileAlign {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+main section div img {
+    width: 70%;
+}
+
+.align {
+    display: flex;
+}
+
+.alignCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.alignR {
+    justify-content: flex-start;
+}
+
+.columnC {
+    flex-direction: column;
+    text-align: center;
+}
+
+.sectionHeadline1 {
+    font-family: thiemposHeadline;
+    font-size: 4.5rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.subTextHeadline {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.subText {
+    margin-left: -0.2rem;
+    font-size: 1.5rem;
+    width: 70%;
+}
+
+.mT {
+    margin-top: 3.5rem;
+}
+
+.-mT {
+    margin-top: -6rem;
+}
+
+.backgroundNum {
+    font-size: 11rem;
+    color: rgba(177, 177, 177, 0.755);
+    text-align: center;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: column;
+}
+
+.greyText {
+    color: grey;
+    font-size: 1.5rem;
+    width: 90%;
+}
+
+section div img {
+    align-self: center;
+}
+
+.desktopAlign{
+    display: flex;
+    flex-direction: row;
+}
+
+.desktopAlignR{
+align-self: flex-end;
+}
+
+/* 
+/* ================== FOOTER ========= */
+
+footer {
+    border-top: #686868 solid 1px;
+    margin-top: 2.5rem;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+footer div {
+    display: flex;
+}
+
+footer div p {
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+}
+
+footer div img {
+    width: 10%;
 }
